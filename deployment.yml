@@ -19,7 +19,7 @@ spec:
         - containerPort: 80
 ---
 apiVersion: v1
-kind: LoadBalancer ##load balancer
+kind: Service ##load balancer
 metadata:
   name: nodejs-service
 spec:
