@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: devopsteam303/march:nodejs1
+        image: devopsteam303/march:nodejs${BUILD_NUMBER}
         ports:
         - containerPort: 80
 ---
