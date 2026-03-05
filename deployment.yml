@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejs
-        image: docker.io/devopsteam303/nodejs:v4
+        image: docker.io/devopsteam303/nodejs:v6
         ports:
         - containerPort: 3000
 ---
