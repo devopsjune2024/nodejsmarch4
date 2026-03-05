@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('NODEJSS ON kubernetes!');
+  res.send('NODEJS ON kubernetes!');
 });
 
 app.listen(port, () => {
